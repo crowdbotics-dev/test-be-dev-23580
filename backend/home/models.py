@@ -10,3 +10,7 @@ class Email(models.Model):
 class Home1(models.Model):
     "Generated Model"
     email = models.BigIntegerField()
+    contact = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
